@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 192, 203, 0.5); /* Light pink background for the canvas */
+    position: relative; /* Ensure it is positioned relative */
+    z-index: 10; /* Higher than the background */
+}
+
+.hidden {
+    display: none;
+}
+
+.gif {
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    position: absolute;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}

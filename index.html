@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="valentineCanvas"></canvas>
+
+    <button id="playMusicButton" class="hidden">Play Music 🎵</button>
+
+    <audio id="backgroundMusic" loop>
+        <source src="background.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="gifContainer" class="hidden">
+        <img src="yourGif.gif" class="gif top-left">
+        <img src="yourGif.gif" class="gif top-right">
+        <img src="yourGif.gif" class="gif bottom-left">
+        <img src="yourGif.gif" class="gif bottom-right">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
